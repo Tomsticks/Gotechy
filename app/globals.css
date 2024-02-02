@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 h2 h3 h4 h5 p a {
+    font-family: "Space Grotesk";
+}
+.heading_class{
+    @apply text-primary text-[23px] xsm:text-[30px] space-x-2 font-bold sm:text-[35px] xl:text-[50px] text-start
+}
+
+.heading_span{
+    @apply  border-b-4 border-[#F3BE36]
+}
